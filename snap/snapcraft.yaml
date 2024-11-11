@@ -1,7 +1,7 @@
-name: capitals
+name: capitals-now
 base: core24
 version: 'master'
-summary: World capitals game on your terminal
+summary: World capitals-now game on your terminal
 description: |
   Type capitals on the terminal.
   Capitals will ask you the capital
@@ -18,5 +18,5 @@ parts:
 
 apps:
   capitals:
-    command: bin/capitals
+    command: bin/capitals-now
 

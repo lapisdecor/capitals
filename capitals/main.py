@@ -1,11 +1,11 @@
-# This is a terminal game about capitals of the world
+# This is a terminal game about capitals-now of the world
 
 import csv
 import random
 
 def run():
     capitais = {}
-    with open('capitais.csv', newline='') as csvfile:
+    with open('../capitais.csv', newline='') as csvfile:
         capreader = csv.reader(csvfile)#, delimiter=' ', quotechar='"')
         for row in capreader:
             capitais[row[0]] = row[1]
