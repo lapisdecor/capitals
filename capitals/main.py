@@ -1,4 +1,4 @@
-# This is a terminal game about capitals-now of the world
+# This is a terminal game about capitals of the world
 
 import csv
 import random

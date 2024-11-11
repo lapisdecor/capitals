@@ -36,5 +36,5 @@ setup(
     ],
     test_suite='tests',
     tests_require=test_requirements,
-    scripts=['bin/capitals-now']
+    scripts=['bin/capitals']
 )
