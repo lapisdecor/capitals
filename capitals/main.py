@@ -2,9 +2,9 @@
 
 import csv
 import random
-import os
+#import os
 from importlib import resources
-print(os.getcwd())
+#print(os.getcwd())
 from capitals import data
 
 file = resources.files(data) / 'capitais.csv'
