@@ -7,7 +7,7 @@ import os
 def run():
     capitais = {}
     print(os.getcwd())
-    with open('./capitals/capitais.csv', newline='') as csvfile:
+    with open('capitals/capitais.csv', newline='') as csvfile:
         capreader = csv.reader(csvfile)#, delimiter=' ', quotechar='"')
         for row in capreader:
             capitais[row[0]] = row[1]
