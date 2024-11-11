@@ -1,0 +1,26 @@
+name: capitals
+base: core24
+version: 'master'
+summary: World capitals game on your terminal
+description: |
+  Type capitals on the terminal.
+  Capitals will ask you the capital
+  of a random country. Let's see if you know it!
+architectures:
+  - amd64
+grade: stable
+confinement: strict
+
+parts:
+  capitals:
+    source: https://github.com/lapisdecor/capitals.git
+    source-type: git
+    plugin: python
+
+
+apps:
+  capitals:
+    command: capitals
+    environment:
+      PYTHONPATH: $SNAP/usr/lib/python3/dist-packages:$PYTHONPATH
+
