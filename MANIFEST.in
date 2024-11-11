@@ -1,1 +1,4 @@
-include capitals/capitais.csv
+include LICENSE
+include README.rst
+include HISTORY.rst
+recursive-include capitals/Data *.csv
