@@ -2,11 +2,11 @@
 
 import csv
 import random
-#import os
+import os
 
 def run():
     capitais = {}
-    #print(os.getcwd())
+    print(os.getcwd())
     with open('../capitals/capitais.csv', newline='') as csvfile:
         capreader = csv.reader(csvfile)#, delimiter=' ', quotechar='"')
         for row in capreader:
