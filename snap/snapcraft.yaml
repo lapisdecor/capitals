@@ -6,8 +6,6 @@ description: |
   Type capitals on the terminal.
   Capitals will ask you the capital
   of a random country. Let's see if you know it!
-architectures:
-  - amd64
 grade: stable
 confinement: strict
 
@@ -20,7 +18,5 @@ parts:
 
 apps:
   capitals:
-    command: capitals
-    environment:
-      PYTHONPATH: $SNAP/usr/lib/python3/dist-packages:$PYTHONPATH
+    command: main
 

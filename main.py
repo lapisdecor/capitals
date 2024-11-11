@@ -3,7 +3,7 @@
 import csv
 import random
 
-def main():
+def run():
     capitais = {}
     with open('capitais.csv', newline='') as csvfile:
         capreader = csv.reader(csvfile)#, delimiter=' ', quotechar='"')
@@ -18,8 +18,3 @@ def main():
         print("That's correct!")
     else:
         print("You failed! It was {}".format(capital))
-
-
-
-if __name__ == '__main__':
-    main()
